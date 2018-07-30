@@ -17,7 +17,7 @@ img_width = X_train.shape[1]
 img_height = X_train.shape[2]
 
 ## by doing normalization, the output of print(model.predict(X_test[:10])) will look more even
-## print(model.predict(X_test[:10]))
+## print(model.predict(X_test[:10])) 
 X_train = X_train.astype("float32")/255.
 X_test = X_test.astype("float32")/255.
 
